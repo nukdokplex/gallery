@@ -36,7 +36,9 @@
   <!--
     Album description
   -->
-  <div class="album-description">{{{album-description}}}</div>
+  {{#if album-description}}
+    <div class="album-description">{{{album-description}}}</div>
+  {{/if}}
 
   <!--
     All photos and videos
