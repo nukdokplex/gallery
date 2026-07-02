@@ -12,6 +12,7 @@ subdirectories under `gallery/`.
 - `gallery/` — photo directories (each subdirectory = an album)
 - `config.json` — Thumbsup gallery configuration
 - `custom.css` — optional style overrides
+- `theme/` — custom theme (fork of `@thumbsup/theme-cards` with album description support)
 - `CNAME` — custom domain `gallery.nukdokplex.ru` (DNS: CNAME → `<user>.github.io`)
 - `LICENSE` — Unlicense (public domain)
 - `GAME.md` — about the Control album (to be moved into an album subfolder)
@@ -26,8 +27,13 @@ No local build needed. Push to `master` triggers GitHub Actions:
 ## Configuration
 Gallery settings in `config.json`:
 - `theme`: cards | mosaic | classic | flow
+- `theme-path`: ./theme (custom fork with album description support)
 - `sort-albums-by`: title | date
 - `sort-media-by`: filename | date
+
+## Album descriptions
+Place a `description.md` in any album folder to show a description on the album
+page. The custom theme (fork of cards) reads it via a Handlebars helper.
 
 ## Limitations
 - Single file upload limit: 25MB (browser) / 100MB (git push)

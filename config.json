@@ -7,6 +7,7 @@
   "download-photos": "copy",
   "cleanup": true,
   "theme": "cards",
+  "theme-path": "./theme",
   "css": "./custom.css",
   "footer": "NukDokPlex Photo Gallery",
   "usage-stats": false
