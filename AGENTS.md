@@ -15,7 +15,7 @@ subdirectories under `gallery/`.
 - `theme/` — custom theme (fork of `@thumbsup/theme-cards` with album description support)
 - `CNAME` — custom domain `gallery.nukdokplex.ru` (DNS: CNAME → `<user>.github.io`)
 - `LICENSE` — Unlicense (public domain)
-- `GAME.md` — about the Control album (to be moved into an album subfolder)
+- `gallery/control/GAME.md` — about the Control album
 - `.github/workflows/gallery.yml` — CI/CD: builds gallery via `ghcr.io/thumbsup/thumbsup` Docker image and deploys to Pages
 
 ## Build & deploy

@@ -12,3 +12,5 @@ Known for:
 - Multiple Game of the Year awards
 - Stunning visuals — photomode captures the Oldest House, Astral Plane,
   Hiss encounters, and altered items/entities
+
+All screenshots in this album taken by [nukdokplex](https://github.com/nukdokplex).
